@@ -11,7 +11,7 @@ public class M3Q2 {
         int i=0;
         while (i<6){
             flag=true;
-            System.out.print(rand.nextInt(42)+1+",");
+            System.out.print(rand.nextInt(42)+1+"\t");
             for (int j=0;j<i;j++){
                 if (data[i]==data[j]){
                     flag=false;break;
